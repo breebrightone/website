@@ -1,0 +1,16 @@
+img {
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+a {
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.title {
+    color: fuchsia;
+    text-align: center;
+}
