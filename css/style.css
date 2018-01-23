@@ -1,0 +1,46 @@
+.siteHeader{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+.siteHeader--title{
+    text-align: center;
+    color: yellow;
+    font-size: 80px;
+}
+
+.siteMain{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.siteFooter{
+    border-top: 4px solid aqua;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright{
+    text-align: center;
+}
+.button {    
+    display: block;
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid pink;
+    background-color: purple;
+    color: yellow;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: skyblue;
+}
