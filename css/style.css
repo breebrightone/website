@@ -1,34 +1,46 @@
+body{
+    margin: 0;
+}
+
+
+
+
 .siteHeader{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 240px;
+    width: 100%;
+    background-image: url(../images/bree-brightone-field.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.siteHeader--bar{
+    background-color: deeppink;
+}
+
+.siteHeader--bar--inner{
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
-    background-color: aqua;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
-.siteHeader--title{
-    text-align: center;
-    color: yellow;
-    font-size: 80px;
+
+
+.siteHeader--bar--title{
+    color: snow;
+    font-size: 24px;
+    margin: 0;
 }
+
+
+
+
 
 .siteMain{
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-}
-
-.siteFooter{
-    border-top: 4px solid aqua;
-    width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.copyright{
-    text-align: center;
 }
 .button {    
     display: block;
@@ -43,4 +55,19 @@
 
 .button:hover {
     background-color: skyblue;
+}
+
+
+
+
+
+.siteFooter{
+    border-top: 4px solid deeppink;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright{
+    text-align: center;
 }
