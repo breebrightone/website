@@ -10,10 +10,7 @@
         
         <main class="siteMain">
             <h2>Welcome to my web.</h2>
-            <p>Here are some of the projects</p>
-            <a class="button" href="hippo-family/">HIPPO FAMILY</a>
+            <p>Here are some of the projects I'm working on. My dad is teaching me how to code.</p>
         </main>
-        
-        <?php include('includes/footer.php') ?>
     </body>
 </html>

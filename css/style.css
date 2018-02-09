@@ -3,7 +3,11 @@ body{
     background-color: lightyellow;
 }
 
-
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 .siteHeader{
@@ -22,20 +26,64 @@ body{
     width: 1000px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 12px;
-    padding-bottom: 12px;
 }
 
 
 
-.siteHeader--bar--title{
-    color: snow;
+.siteHeader--bar--title {
+    float: left;
     font-size: 24px;
     margin: 0;
+    line-height: 48px;
+}
+
+.siteHeader--bar--title a {
+    color: snow;
+    text-decoration: none;
+}
+
+.siteHeader--bar--title a:link
+.siteHeader--bar--title a:visited {
+    color: snow;
+    
+}
+.siteHeader--bar--title a:hover {
+    color: yellow;
+    
+}
+.siteHeader--bar--title a:active {
+    color: snow;
+    
 }
 
 
+.siteNav {
+    float: right;
+}
 
+.siteNav--link {
+    display: inline-block;
+    padding-right: 4px;
+    padding-left: 4px;
+    color: snow;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+.siteNav--link:link
+.siteNav--link:visited {
+    color: snow;
+    
+}
+.siteNav--link:hover {
+    background-color: hotpink;
+    color: snow;
+    
+}
+.siteNav--link:active {
+    color: snow;
+    
+}
 
 
 .siteMain{
