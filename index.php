@@ -1,8 +1,8 @@
-<!doctype html>
+<?php include('includes/vars.php') ?><!doctype html>
 <html>
     <head>
         <title>Bree Brightone</title>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css<?php echo $styleVersion; ?>">
     </head>
 
     <body>

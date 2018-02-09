@@ -1,9 +1,9 @@
-<!doctype html>
+<?php include('includes/vars.php') ?><!doctype html>
 <html>
     <head>
         <title>Hangman Game</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/hangman.css">
+        <link rel="stylesheet" href="css/style.css<?php echo $styleVersion; ?>">
+        <link rel="stylesheet" href="css/hangman.css<?php echo $hangmanVersion; ?>">
     </head>
 
     <body>
@@ -53,6 +53,6 @@
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
           crossorigin="anonymous"></script>
           
-        <script src="js/hang-man.js"></script>
+        <script src="js/hang-man.js<?php echo $hangmanVersion; ?>"></script>
     </body>
 </html>
